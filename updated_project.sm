@@ -1,0 +1,21 @@
+{ "class": "GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "copiesKey": false,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [ 
+{"text":"Home", "location":"-904.5 -226", "key":-1},
+{"text":"Event Calendar", "location":"-540.5 -283", "key":-2},
+{"text":"Suggestion ", "location":"-540.5 -353", "key":-3},
+{"text":"Application Form ", "location":"-540.5 -193", "key":-4},
+{"text":"About HBS", "location":"-540.5 -100", "key":-5},
+{"text":"Navibar", "location":"-722.5 -226", "key":-6}
+ ],
+  "linkDataArray": [ 
+{"from":-1, "to":-6, "fromPort":"from", "toPort":"to"},
+{"from":-6, "to":-2, "fromPort":"from", "toPort":"to"},
+{"from":-6, "to":-4, "fromPort":"from", "toPort":"to"},
+{"from":-6, "to":-3, "fromPort":"from", "toPort":"to"},
+{"from":-6, "to":-5, "fromPort":"from", "toPort":"to"}
+ ]}
